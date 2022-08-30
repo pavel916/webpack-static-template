@@ -6,7 +6,6 @@
   "license": "ISC",
   "author": "",
   "main": "index.js",
-  "homepage": "https://pavel916.github.io/CPS",
   "scripts": {
     "build": "webpack --mode production",
     "predeploy": "npm run build",
