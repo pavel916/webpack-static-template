@@ -1,0 +1,15 @@
+.footer__item {
+	line-height: 16px;
+	text-align: center;
+	color: $color_3;
+	opacity: 0.72;
+	margin: 16px 0 16px;
+}
+
+.footer__footer {
+	font-size: 14px;
+	@media screen and (min-width: 768px) {
+		display: flex;
+		padding: 20px 0;
+	}
+}

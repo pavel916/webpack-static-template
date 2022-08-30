@@ -1,0 +1,84 @@
+.pegination-price {
+	position: relative;
+	top: -30px;
+}
+.swiper-price {
+	height: 200px;
+	width: 260px;
+	border-radius: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	margin-right: 5px;
+	@media (min-width: 768px) {
+		min-width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: auto;
+		align-items: center;
+		border-bottom: 1px solid #EAEAEA;
+		margin: 0;
+		padding: 16px;
+	}
+}
+.swiper-price__a {
+	margin-left: 100px;
+	margin-top: -12px;
+	@media (min-width: 768px) {
+		margin-left: auto;
+		position: relative;
+		top: 8px;
+	}
+}
+.swiper-price--on {
+	color: $color_3;
+	font-size: 14px;
+	line-height: 16px;
+	opacity: 0.72;
+	margin-left: 10px;
+	margin-top: 10px;
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+.swiper-price--off {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: $color_4;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.price {
+	a {
+		&:hover {
+			transform: scale(1.2);
+			transition-duration: 1s;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.diagnostic {
+		width: 350px;
+		margin: 0;
+	}
+	.free {
+		width: 100px;
+		margin: 0;
+		margin-left: 35px;
+	}
+	.time {
+		width: 100px;
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1120px) {
+    .time {
+      margin-left: 140px;
+    }
+  }

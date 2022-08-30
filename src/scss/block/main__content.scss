@@ -1,0 +1,83 @@
+.main__content-text--close {
+	display: none;
+}
+
+.main__content {
+	display: flex;
+	flex-direction: column;
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+	}
+}
+.main__content-text {
+	line-height: 1.3;
+	letter-spacing: -0.8px;
+	height: 103px;
+	overflow: hidden;
+	margin: 0 0 15px;
+	font-family: 'TT Lakes Regular';
+	font-weight: 400;
+}
+
+// .main__content-text--close {
+// 	display: none;
+// }
+
+.btn__conteinrEvery {
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-none3 {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    padding: 2px; 
+}
+
+.btn-none3::before {
+    content: "";
+    background: url($path-btn_content)no-repeat;
+    position: absolute;
+    left: 0;
+    width: 12px;
+    height: 12px;
+
+}
+
+.btn-none3--close {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background: none;
+    width: 120px;
+    padding: 2px;
+}
+
+.btn-none3--close::before {
+    content: "";
+    background: url($path-btn_close)no-repeat;
+    position: absolute;
+    margin-left: -4px;
+    top: -3px;
+    width: 20px;
+    height: 17px;
+}
+
+.main__content-img {
+	width: 300px;
+	border-radius: 6px;
+	margin: 0 0 30px;
+	vertical-align: top;
+	@media screen and (min-width: 768px) {
+			width: 360px;
+		}
+	@media screen and (min-width: 1120px) {
+			width: 531px;
+			margin: 0 0 40px;
+		}
+}

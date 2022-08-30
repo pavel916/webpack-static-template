@@ -1,0 +1,34 @@
+.permanent-service {
+	margin: 0 auto;
+	padding: 0 10px;
+	@media (min-width: 768px){
+		padding-top: 15px;
+	}
+}
+.permanent-service__text {
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	margin: 0 0 16px;
+}
+.permanent-service__a {
+	&::after {
+		content: url($path-line);
+		position: relative;
+		right: -5px;
+	}
+	font-size: 16px;
+	line-height: 24px;
+	word-spacing: 5px;
+	letter-spacing: -0.2px;
+	color: $color_4;
+	font-weight: 500;
+}
+.line {
+	height: 2px;
+	width: 100%;
+	left: 0px;
+	top: 1662px;
+	border-radius: 0px;
+	background: #D9FFF5;
+	margin-top: 50px;
+}

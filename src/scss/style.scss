@@ -1,0 +1,52 @@
+@import "block/_variable.scss";
+// @import "block/fonts.scss";
+@import "block/base.scss";
+@import "block/brands.scss";
+@import "block/footer.scss";
+@import "block/header.scss";
+@import "block/main-main.scss";
+@import "block/main__content.scss";
+@import "block/main__servis-menu-Item.scss";
+@import "block/modal.scss";
+@import "block/permanent.scss";
+@import "block/swiper.scss";
+@import "block/price.scss";
+@import "block/saidbar.scss";
+@import "block/repair.scss";
+@import "block/pagination.scss";
+
+
+
+@import '..//../node_modules/swiper/swiper-bundle.css';
+
+
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: url('../fonts/TTLakes-Regular.eot');
+    src: url('../fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes-Regular.woff') format('woff'),
+    url('../fonts/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'TT Lakes Medium';
+        src: url('../fonts/TTLakes-Medium.eot');
+        src: url('../fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTLakes-Medium.woff') format('woff'),
+        url('../fonts/TTLakes-Medium.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'TT Lakes Bold';
+            src: url('../fonts/TTLakes-Bold.eot');
+            src: url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/TTLakes-Bold.woff') format('woff'),
+            url('../fonts/TTLakes-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+            }
+
