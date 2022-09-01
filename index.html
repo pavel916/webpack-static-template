@@ -12,8 +12,8 @@
 
     <header class="header">
         <nav class="header__nav--left">
-            <div class="heaer__burger">
-                <a class="header__openSaidbar" href="#"><img class="header__burger-img" src="./img/burger.svg" alt=""></a>
+            <div class="heaer__buttons">
+                <button class="header__button btn1"></button>
             </div>
             <div class="header__divider--left">
                 <img class="header__divider-img--left" src="./img/divider.svg" alt="">
@@ -23,41 +23,39 @@
             </div>
         </nav>
         <nav class="header__nav--right">
-            <div class="header__call">
-                <a class="header__modalCall" href="#"><img class="header__call-img" src="./img/call.svg" alt=""></a>
+             <div class="heaer__buttons call">
+                <button class="header__button btn6"></button>
             </div>
-            <div class="header__message">
-                <a class="header__modalMessage" href="#"><img class="header__message-img" src="./img/chat.svg" alt=""></a>
+            <div class="heaer__buttons message">
+                <button class="header__button btn5"></button>
             </div>
-            <div class="header__area">
-                <a href="#"><img class="header__area-img" src="./img/profile.svg" alt=""></a>
+            <div class="heaer__buttons area">
+                <button class="header__button btn4"></button>
             </div>
             <div class="heaer__divider--right">
                 <img class="heaer__divider-img--right" src="./img/divider.svg" alt="">
             </div>
-            <div class="header__servis">
-                <button class="header__servis btn2"></button>
+            <div class="heaer__buttons">
+                <button class="header__button btn2"></button>
             </div>
-            <div class="header__search">
-                <a href="#"><img class="header__search-img" src="./img/logo-search/ic/checkstatus.svg" alt=""></a>
+            <div class="heaer__buttons">
+                <button class="header__button btn3"></button>
             </div>
         </nav>
-
-
     </header>
-    <main class="main">
+    <aside>
         <div class="saidbar__conteiner">
             <header class="header__saidbar--left">
                 <div class="header__saidbar-item">
-                    <div class="header__saidbar-logo1">
-                        <button class="btn-saidbar"><img src="./img/ic/burger.svg" alt=""></button>
+                    <div class="heaer__buttons">
+                        <button class="header__button btn9"></button>
                     </div>
                     <div class="header__saidbar-logo2">
                         <a href="#"><img src="./img/Group.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="header__saidbar-logo3">
-                    <a href="#"><img src="./img/ic/search.svg" alt=""></a>
+                <div class="heaer__buttons">
+                    <button class="header__button btn8"></button>
                 </div>
             </header>
             <nav class="nav-saidbar">
@@ -74,32 +72,43 @@
             </nav>
             <footer class="footer-saidbar">
                 <div class="footer-saidbar__item">
-                    <div class="footer-saidbar__item logo-call">
-                        <a class="myCall" href="#"><img src="./img/call.svg" alt=""></a>
+                    <div class="heaer__buttons logo-call">
+                        <button class="header__button btn12"></button>
                     </div>
-                    <div class="footer-saidbar__item logo-chat">
-                        <a class="myChat" href="#"><img src="./img/chat.svg" alt=""></a>
+                    <div class="heaer__buttons logo-chat">
+                        <button class="header__button btn13"></button>
                     </div>
-                    <div class="footer-saidbar__item logo-profile">
-                        <a href="#"><img src="./img/profile.svg" alt=""></a>
+                    <div class="heaer__buttons logo-profile">
+                        <button class="header__button btn14"></button>
                     </div>
                 </div>
                 
                 <p class="footer-saidbar__email"><a href="mailto:mail@cps.com">mail@cps.com</a></p>
                 <p class="footer-saidbar__tel"><a href="tel:+78008908900">8 800 890 8900</a></p>
                 <div class="footer-saidbar__lang">
-                    <button class="lang__item-1">RU</button>
-                    <button class="lang__item-2">EN</button>
-                    <button class="lang__item-3">CH</button>
+                    <ul class="footer-saidbar__ul">
+                        <li>
+                         <button class="lang__item-1">RU</button>
+                        </li>
+                        <li>
+                         <button class="lang__item-2">EN</button>
+                        </li>
+                        <li>
+                         <button class="lang__item-3">CH</button>
+                        </li> 
+                     </ul>
                 </div>
             </footer>
         </div>
-
+    </aside>
+    <main class="main">
             <div class="main__container">
                     <header class="main__item"><h1>Услуги и сервисы</h1>
                         <div class="main__icon">
-                            <button class="header__icon1"><span class="header__btn">Оставить заявку</span></button>
-                        <a class="header__icon2" href="#">Статус ремонта<img class="header__search--none" src="./img/logo-search/ic/checkstatus.svg" alt=""></a>
+                            <div class="main__icon">
+                                <button class="header__icon1"><span class="header__btn--span">Оставить заявку</span></button>
+                                <button class="header__icon2"><span class="header__btn--span">Статус ремонта</span></button>
+                            </div>
                         </div>
                     </header>
                     <nav class="main__sevice-menu">
@@ -129,7 +138,7 @@
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, facilis. Cupiditate nihil quae vel adipisci sit, tempore fuga consequatur aliquid ad quibusdam quisquam magni dolores numquam, neque minima eius sint.
                             </div>
                             <div class="btn__conteinrEvery">
-                                <button class="btn-none3"><span>Читать далее</span></button>
+                                <button id="bti" class="btn__none"><span>Читать далее</span></button>
                             </div>
                         </div>
                         <div class="main__content-foto">
@@ -189,7 +198,7 @@
                               </div>
                         </div>
                         <div class="btn__conteinrEvery">
-                            <button class="btn-none"><span>Показать все</span></button>
+                            <button id="asd" class="btn"><span>Показать все</span></button>
                         </div>
                     </div>
                     <div class="repair">
@@ -225,7 +234,7 @@
                             <div class="swiper-pagination"></div>
                         </div>
                         <div class="btn__conteinrEvery">
-                            <button class="btn-repair"><span>Показать все</span></button>
+                            <button id="cpi" class="btn close"><span>Показать все</span></button>
                         </div>
                     </div>
                     <div class="price">
@@ -255,7 +264,7 @@
                               </div>
                               <div class="swiper-slide swiper-price">
                                 <span class="swiper-price--on">Ремонтные услуги</span>
-                                <span class="swiper-price--off diagnostic">Замена полифонического динамика</span>
+                                <span class="swiper-price--off diagnostic">Замена динамика</span>
                                 <span class="swiper-price--on">Цена</span>
                                 <span class="swiper-price--off free">Бесплатно</span>
                                 <span class="swiper-price--on">Срок</span>
@@ -264,7 +273,7 @@
                               </div>
                               <div class="swiper-slide swiper-price">
                                 <span class="swiper-price--on">Ремонтные услуги</span>
-                                <span class="swiper-price--off diagnostic">Тестирование с выдачей технического заключения</span>
+                                <span class="swiper-price--off diagnostic">Тестирование</span>
                                 <span class="swiper-price--on">Цена</span>
                                 <span class="swiper-price--off free">Бесплатно</span>
                                 <span class="swiper-price--on">Срок</span>
@@ -273,7 +282,7 @@
                               </div>
                               <div class="swiper-slide swiper-price">
                                 <span class="swiper-price--on">Ремонтные услуги</span>
-                                <span class="swiper-price--off diagnostic">Замена программного обеспечения</span>
+                                <span class="swiper-price--off diagnostic">Замена обеспечения</span>
                                 <span class="swiper-price--on">Цена</span>
                                 <span class="swiper-price--off free">Бесплатно</span>
                                 <span class="swiper-price--on">Срок</span>
